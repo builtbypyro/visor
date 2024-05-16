@@ -46,4 +46,4 @@ def summarize(content, prompt = DEFAULT_PROMPT):
                     "content": r"" + chunk
                 }
             )
-    return generate(query)
+    return generate(messages=query, model="gpt-4-32k")

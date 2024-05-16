@@ -21,7 +21,7 @@ def completionID():
   return f"{prefix}{random_part}"
 
  
-def generate(model: str, messages, prompt = "You are ChatGPT, a large language model trained by OpenAI. Follow the user's instructions carefully. Respond using markdown.", temperature = 1):
+def generate(model: str, messages, prompt = "You are ChatGPT, a large language model trained by OpenAI. Follow the user's instructions carefully.", temperature = 0.7):
     """ Supports GPT-3.5-turbo, GPT-4-0125-preview *gpt-4, GPT-4-32K *gpt432k
     
     """
